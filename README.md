@@ -1,5 +1,5 @@
 <h1>Goal:</h1>
-  Prevent automatic respawn to allow medical units to respond to a scene. This script will override all default respawn points and will make people respawn at one of 5 hospitals (random).
+  Prevent automatic respawn to allow medical units to respond to a scene. This script will **NOT** override default respawn points (handled by mapmanager).
 
 <h2>Installation instructions: </h2>
 <ol>
@@ -22,11 +22,11 @@
 <h2>Usage Commands:</h2>
 
   <h3>Respawn Command:</h3>
-    <b>/respawn</b> : Will respawn you one of 5 hosptial locations. Must be dead, hospital chosen at random.
+    <b>/respawn</b> : Will respawn you at one of the existing respawn points.
 
   <h3>Revive Command:</h3>
     <b>/revive</b> : Will revive you at your current spot. Must be dead.<br/>
     <b>/revive *id*</b> : Will revive the player ID at their current location. Player must be dead.
 
   <h3>Toggle Command:</h3>
-    <b>/toggleDeath</b> : Upon dying you will automatically respawn at a random hospital after 3 seconds.
+    <b>/toggleDeath</b> : Upon dying you will automatically respawn at one of the existing respawn points.
