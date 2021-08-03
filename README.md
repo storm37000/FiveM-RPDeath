@@ -26,7 +26,7 @@
 
   <h3>Revive Command:</h3>
     <b>/revive</b> : Will revive you at your current spot. Must be dead.<br/>
-    <b>/revive *id*</b> : Will revive the player ID at their current location. Player must be dead.
+    <b>/revive *id*</b> : Will revive the player ID at their current location.  Player must be dead.  This requires granting the ace "reviveothers".
 
   <h3>Toggle Command:</h3>
     <b>/toggleDeath</b> : Upon dying you will automatically respawn at one of the existing respawn points.
